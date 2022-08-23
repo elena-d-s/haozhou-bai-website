@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <head>
+      <meta charset="utf-8">
+      <title>Classes</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="icon" href="images/favicon.ico" type="favicon">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Oswald&display=swap" rel="stylesheet">
+    </head>
+  </head>
+  <body>
+    <div class="top-header">
+      <a class="button" href="index.html"><button>HOMEPAGE</button></a>
+      <a class="button" href="aboutme.html"><button>ABOUT</button></a>
+      <a class="button" href="classes.html"><button>CLASSES</button></a>
+      <a class="button" href="videos.html"><button>VIDEOS</button></a>
+      <a class="button" href="contact.html"><button>CONTACT</button></a>
+    </div>
+    <div id="eventbrite-widget-container-401293659137"></div>
+
+    <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+    <script type="text/javascript">
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+
+        window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '401293659137',
+            iframeContainerId: 'eventbrite-widget-container-401293659137',
+
+            // Optional
+            iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+    </script>
+
+    <div class="footer-container">
+      <a class="footer-link" href="mailto:hzb5464@gmail.com">Email</a>
+      <a class="footer-link" href="https://www.eventbrite.co.uk/o/kung-fu-of-heart-school-40654945373">Eventbrite Classes</a>
+      <a class="footer-link" href="https://vimeo.com/user170895114">Vimeo Videos</a>
+      <p class="copyright"><em>© Haozhou Bai; designed and developed by<a class="designer-link" href="https://github.com/elena-d-s">EDS</a></em></p>
+    </div>
+
+  </body>
+</html>
