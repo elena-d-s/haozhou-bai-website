@@ -126,6 +126,13 @@ button:hover {
 
 }
 
+.classes-eventbrite {
+  width: 60%
+  margin-left:auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
 
 .copyright {
   color: #a5cfde;
